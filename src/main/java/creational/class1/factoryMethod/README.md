@@ -10,7 +10,7 @@ Virtual constructor
 Los frameworks usan clases abstractas para definir y mantener relaciones entre objetos. un framework es a menudo 
 responsable de crear estos objetos también
 ## Cuando aplicar
-* una clase no puede anticipar la clase de objetos que debe crear
+* no sabe de de antemano con que tipos de objetos la aplicacion va a trabajar
 * una clase quiere que sus subclases especifiquen los objetos que crea
 * las clases delegan la responsabilidad a una de varias subclases auxiliares, y desea localizar el conocimiento de qué suclases auxiliares es el delegado
 ## Participantes
@@ -30,6 +30,10 @@ una desventaja potencial de los métodos factoty es que los clientes podrían te
 subclase de la clase creadora solo para crear un objeto de producto concreto en particular.
 la subclasificación está bien cuando el cliente tiene que subclasificar la clase creadora de todos modos,
 pero de lo contrario, el cliente ahora debe lidiar con otro punto de evolución
+
+crea un solo **ConcreteProduct** por clases que implementa la interfaz **Creator**
+se utiliza en diseños sencillos
+
 
 ## UML
 ![](uml/factory-method.png)
