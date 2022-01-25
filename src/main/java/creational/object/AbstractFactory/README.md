@@ -1,3 +1,4 @@
+# Abstract Factory - Pattern Design
 ## Cuando aplicar
 * un sistema debe ser independiente de cómo se crean, componen y representan sus productos
 * un sistema debe configurarse con una de varias familias de productos

@@ -1,11 +1,10 @@
+# Factory Method - Pattern Design
 ## Intencion
 se define una interfaz para la creacion de objetos. dejando que cada subclass decida que clase va a instanciar.
 De esa forma tenemos clases instanciadas abstractas
 
 Es recomendable usarlo cuando se requiere la creacion de objetos complejos. No es necesario usar este patron cuando
 el objeto se crea con un simple **new**.
-## Tambien comocido como
-Virtual constructor
 ## Motivacion 
 Los frameworks usan clases abstractas para definir y mantener relaciones entre objetos. un framework es a menudo 
 responsable de crear estos objetos también
