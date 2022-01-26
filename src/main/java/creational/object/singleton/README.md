@@ -17,6 +17,6 @@ Garantizar que una clase solo tenga una instancia y proporcionar un punto de acc
   método, siempre se devolverá el mismo objeto.
 ## Participantes
 * **Singleton**
-  * es responsable de c rear su propia unica class
-  * define una instancia que permite a los cleintes acceder a esta unica instancia
-  
+  * es responsable de crear su propia unica class
+  * define una instancia que permite a los clientes acceder a esta unica instancia
+## Consecuencias
