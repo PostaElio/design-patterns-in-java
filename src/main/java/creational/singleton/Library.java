@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 @Getter
 @Setter
 public class Library {
+    //Ocupa un unico lugar en la memoria por lo tanto todos los objetos comparten el valor de este atributo
     private static Library library;
     private String name;
     private List<String> booksAvailable;

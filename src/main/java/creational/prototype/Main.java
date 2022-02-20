@@ -17,5 +17,19 @@ public class Main {
         System.out.println(house2.toString());
         System.out.println(house3.toString());
 
+        int fila = 2;
+        repeat(3){//Columnas
+            poner(Azul);
+            repeat(fila){//Filas
+                MoverNorte
+                poner(Azul);
+            }
+            repeat(fila){//Volvemos
+                MoverSur()
+            }
+            fila = fila - 1;
+            moverEste();
+        }
+
     }
 }
